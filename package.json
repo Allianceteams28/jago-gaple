@@ -1,0 +1,16 @@
+{
+  "name": "jago-gaple",
+  "version": "1.0.0",
+  "description": "Jago Gaple: domino 2 lawan 2. Offline vs bot dan online (kode tim, leaderboard, akun owner).",
+  "main": "server.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node server.js",
+    "test": "node build.js --check && node tests/server.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
